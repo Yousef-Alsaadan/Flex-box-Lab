@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.bg-blck{
+    color: white;
+    background-color: black;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 10px auto;
+    margin-top: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+.logo{
+    align-self: center;
+}
+.nav-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+
+}
+
+.nav-btn ul{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.big-btn{
+    display: flex;
+    background-color: white;
+    height: 2.5em;
+    width: 7em;
+    justify-content: center;
+}
+.big-btn a{
+    align-self: center;
+    color: black;
+}
+
+.hero-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.hero-txt h1{
+    font-size: 6em;
+}
+.hero-txt h3{
+    width: 50%;
+    text-align: center;
+}
+
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.single-img{
+    text-align: center;
+}
+
+.single-img img{
+    height: 20vw;
+}
+
+.single-img a{
+    color: white;
+}
+
+.single-img h2{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.img-modifi{
+    width: 25vw;
+    object-fit: cover;
+}
+
+.bg-white{
+    margin-top: 5em;
+}
+
+.content{
+    display: flex;
+}
+
+.content-img{
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+
+}
+.img-flot1{
+    float: left;
+}
+.content-img img{
+    height: 20vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.img-flot{
+    float: right;
+    align-self: flex-end;
+    width: 50%;
+}
+
+.content-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sub-content-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-btn{
+    display: flex;
+    background-color: black;
+    height: 2.5em;
+    width: 7em;
+    justify-content: center;
+}
+.content-btn a{
+    align-self: center;
+    color: white;
+}
+
+.content-txt h1{
+    width: 50%;
+}
+
+.sub-content-txt p{
+    width: 50%;
+}
