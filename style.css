@@ -42,9 +42,10 @@ nav{
 .big-btn{
     display: flex;
     background-color: white;
-    height: 2.5em;
-    width: 7em;
+    height: 3em;
+    width: 10em;
     justify-content: center;
+    font-size: large;
 }
 .big-btn a{
     align-self: center;
@@ -101,16 +102,15 @@ nav{
 
 .content{
     display: flex;
+    justify-content: end;
 }
 
 .content-img{
     display: flex;
     flex-direction: column;
-    height: 25%;
+    width: 50%;
+    height: 50%;
 
-}
-.img-flot1{
-    float: left;
 }
 .content-img img{
     height: 20vw;
@@ -118,31 +118,33 @@ nav{
 }
 
 .img-flot{
-    float: right;
     align-self: flex-end;
-    width: 50%;
+    translate: 0% -15%;
 }
 
 .content-txt{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: end;
     gap: 25px;
+    width: 50%;
 }
-
 .sub-content-txt{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    gap: 50px;
+    width: 75%;
 }
+
 
 .content-btn{
     display: flex;
     background-color: black;
-    height: 2.5em;
-    width: 7em;
+    height: 3em;
+    width: 10em;
     justify-content: center;
+    font-size: larger;
 }
 .content-btn a{
     align-self: center;
@@ -150,9 +152,24 @@ nav{
 }
 
 .content-txt h1{
-    width: 50%;
+    width: 70%;
 }
 
 .sub-content-txt p{
-    width: 50%;
+    width: 75%;
+}
+
+.content-sub-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-sub-img img{
+    width: 10vw;
+}
+
+.txt{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 5em;
 }
